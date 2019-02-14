@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="pl">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Fahkwang|Lato|Oswald|Raleway|Roboto|Source+Sans+Pro|ZCOOL+KuaiLe" rel="stylesheet"> 
+	
+	
+	
+	<script type="text/javascript" src="colorChanger.js"></script>
+	<script type="text/javascript" src="KeywordFinder.js"></script>
+	<script type="text/javascript" src="KeywordsArray.js"></script>
+	<script type="text/javascript" src="StyleArray.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+		var findKeyword=true;
+	</script>
+</head>
+<body>
+	<header id="header">
+		<h1 id="title">Strona internetowa</h1>
+		<div>
+			<button id="colorPaletteButtonShower" onclick="colorPaletteButtonShowerClick('colorPalette','colorSelector');">DESIGN</button>
+			<ul id="colorPalette" style="display: none;">
+				<li class="colorSelector" style="background-color: #333;" onclick="changeColor(0, 'colorPalette', 'header');"></li>
+				<li class="colorSelector" style="background-color: #f84;" onclick="changeColor(1, 'colorPalette', 'header');"></li>
+				<li class="colorSelector" style="background-color: #47f;" onclick="changeColor(2, 'colorPalette', 'header');"></li>
+				<li class="colorSelector" style="background-color: #2f7;" onclick="changeColor(3, 'colorPalette', 'header');"></li>
+			</ul>
+		</div>
+	</header>
+		
+	<article class="article withKeywords">
+		Strona WWW (ang. web page) – dokument HTML udostępniany w Internecie przez serwer WWW. Po stronie użytkownika strona internetowa jest zwykle otwierana i wyświetlana za pomocą przeglądarki internetowej.
+
+Autorem pierwszych stron internetowych jest Tim Berners-Lee[1]. Obecnie strony tworzy się za pomocą m.in. HTML5, CSS 3 i JavaScript.
+
+Strony internetowe wykorzystywane w celu prowadzenia działalności gospodarczej mają duże znaczenie dla wizerunku firmy, co może mieć wpływ na wynik ekonomiczny działalności rynkowej[2], a ewentualne błędy na stronie internetowej mogą negatywnie oddziaływać na potencjalnych klientów[3].
+
+Strony internetowe wykorzystują niekiedy obiekty multimedialne takie jak np. Adobe Flash, Microsoft Silverlight czy aplety Javy. Aby móc odtworzyć lub wyświetlić takie obiekty, wymagane jest zainstalowanie odpowiedniej wtyczki do przeglądarki internetowej, umożliwiając w ten sposób ich wyświetlenie. 
+	</article>
+	
+	<script type="text/javascript">bootUp();</script>
+</body>
+</html>
